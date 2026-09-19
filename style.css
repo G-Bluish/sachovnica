@@ -38,19 +38,26 @@ h1 {
    align-items: center;
    font-size: 24px;
    padding: 10px;
-   
+}
+
+.vnutro {
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   grid-template-rows: repeat(8, 1fr);
+   border: 10px double #770c0c;
+   grid-column: 2 / span 8;
+   grid-row: 2 / span 8;
 }
 
 .popiska {
    font-weight: bold;
    color: #770c0c;
 }
-.policko{
-   border: 2px solid #770c0c;}
 
 .lava {
    justify-content: end;
 }
+
 .prava {
    justify-content: start;
 }
